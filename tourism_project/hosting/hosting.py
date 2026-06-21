@@ -16,7 +16,7 @@ api = HfApi(token=hf_token)
 # ✅ Use the correct local path (relative to where the script runs)
 api.upload_folder(
     folder_path="tourism_project/deployment",
-    repo_id="Pradeepec59/Tourism",
+    repo_id="Pradeepec59/Tourism-App",
     repo_type="space",
     path_in_repo="",
 )

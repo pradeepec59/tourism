@@ -17,7 +17,7 @@ api = HfApi(token=hf_token)
 
 # Download and load the trained model
 model_path = hf_hub_download(
-    repo_id="Pradeepec59/Tourism",
+    repo_id="Pradeepec59/Tourism-App",
     filename="tourism_project_test.joblib",
     repo_type="model",
     token=hf_token
