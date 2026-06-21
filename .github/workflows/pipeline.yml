@@ -56,4 +56,4 @@ jobs:
       - name: Push files to Frontend Hugging Face Space
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: python
+        run: python tourism_project/hosting/hosting.py
